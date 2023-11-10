@@ -1,0 +1,38 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 5% 0 5%;
+  font-size: 16px;
+}
+
+.app-heading {
+  color: brown;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 3em;
+}
+
+.repos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex-grow: 1;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-left: 0;
+  width: 90%;
+  margin: auto;
+}
+
+.repos-list::-webkit-scrollbar {
+  display: none;
+}
+
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

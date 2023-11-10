@@ -1,0 +1,51 @@
+.repo-item {
+  display: flex;
+  background-color: rgb(236 223 223);
+  font-size: 16px;
+  border-radius: 1em;
+  gap: 1em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.owner-avatar {
+  border-radius: 1em;
+  width: 15%;
+  height: auto;
+}
+
+.repo-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  font-size: x-large;
+  margin: 0;
+  margin-bottom: 0.6em;
+}
+
+.repo-description {
+  font-family: 'Roboto';
+  font-size: large;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.sub-details-container {
+  display: flex;
+  gap: 20px;
+}
+
+.sub-details-container>p {
+  font-family: 'Roboto';
+  color: brown;
+  font-size: medium;
+  margin: 0;
+}
+
+.sub-details-container span {
+  font-weight: 500;
+}
